@@ -1,6 +1,5 @@
-#!/usr/bin/env node -r esm
-
-import 'localenv';
+#!/usr/bin/env node -r @babel/register
+import 'dotenv/config';
 import optimist from 'optimist';
 
 import log from 'book';
